@@ -1,0 +1,61 @@
+---
+title: "Tarea 1 (Calificaciones/Kardex)"
+author: "Melissa Moreno"
+date: "29 de agosto de 2016"
+output: html_document
+---
+# Lista de Calificaciones
+#
+#Primer Semestre:
+Programacion Actuarial I	      10
+
+Intr a la Profesion Actuarial		09	
+
+DHPC		                        07
+
+Conceptos de Cálculo	        	09
+
+Matemáticas Básicas	          	07		
+
+Problemas de Mat. Básicas		    07
+
+#
+#Segundo Semestre:
+ Programacion Actuarial II		  08	
+
+ Teoria del Interés I		        08
+
+ Formación Humana y Social	    08	
+
+ Cálculo Diferencial		        07
+
+ Teoria de Ecuaciones	          08	
+
+#Tercer Semestre:
+ Programacion Actuarial III		...	
+
+ Teoria del Interés II    		...
+
+ Registros Academicos y Cientificos del Español ...
+
+ Geometría Analítica    ...
+  
+ Álgebra Lineal    ...
+
+ Microeconomía   ...
+
+
+		
+
+
+
+
+
+
+		
+
+
+	
+
+
+
