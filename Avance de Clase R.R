@@ -123,3 +123,87 @@ m
  
  m4 <- cbind(m2,y)
  m4
+ 
+ 
+ 
+ #Factores
+ 
+ x <- factor(c("si","no","si","si","no","si","no"))
+ x
+ table(x) #Cuenta el número de "no" y "si" que aparecen
+ unclass(x) #Enseña la forma en que lo almacena, conforme a su nivel
+ 
+ x <- factor(c("si","no","si","si","no","si","no"), levels = c("si","no"))
+ x
+ unclass(x)
+ 
+ x <- factor(c("azul","azul", "rojo","azul","amarillo","verde","azul"))
+ x
+ table(x)
+ 
+ 
+ #NA Valor vacio, no se proporciono
+ #NaN no es un número, valor que no esta definido, operacion matemática indefinida (1/0)
+
+ #Valores Faltantes
+ x <- c(1,2,NA,10,3)
+ is.na(x)
+ is.nan(x)
+ 
+ x <- c(1,2,NaN,10,3)
+ is.na(x)
+ is.nan(x)
+ 
+ 
+ #Data Frames
+ x<- data.frame(Erick = 1:4, Lori = c(T,T,F,F))
+ row.names(x) <- c("Primero","segundo","tercero","cuarto")  
+ # row.names Cambia los nombres de las filas
+  x
+ nrow(x)
+ ncol(x)
+ 
+ attributes(x)
+ 
+ names(x) <- c("Judy","Mely")
+ x
+ 
+ #Los nombres no son exclusivos de los data frames
+ x <- 1:3
+ names(x) #NULL
+ names(x) <- c("Hugo","Paco","Luis")
+  x
+  
+x <- list(a=1:10,b=100:91,c=51:60)  
+ x
+ names(x) <- c("Seq1","SEQ2","sEq3")
+ x
+  
+ m <- matrix(1:4,2,2)
+ 
+ m
+ 
+ attributes(m)
+ dimnames(m) <- list(c("fil1","fil2"), c("col1","col2"))
+ m
+ 
+ m <- matrix(nrow=5,ncol=6)
+ m
+ dimnames(m) <- list((1:5),c("A","B","C","D","E","F"))
+ m
+ 
+ #Lectura de datos
+getwd()
+setwd("~/GitHub/Programacion_Actuarial_III")
+data <- read.csv("Datos_S&P.csv")
+data <- read.table("Datos_S&P.csv",T,",")
+data
+ 
+ 
+
+
+
+
+
+
+ 
