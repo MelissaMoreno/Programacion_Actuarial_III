@@ -125,7 +125,6 @@ m
  m4
  
  
- #Clase 31/08/16
  
  #Factores
  
@@ -199,8 +198,9 @@ setwd("~/GitHub/Programacion_Actuarial_III")
 data <- read.csv("Datos_S&P.csv")
 data <- read.table("Datos_S&P.csv",T,",")
 data
+ 
+ 
 
-attributes(data)
 
 
 
