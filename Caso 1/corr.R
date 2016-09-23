@@ -1,3 +1,4 @@
+setwd("~/Progra 3 programas/GitHub/Programacion_Actuarial_III_OT16/Caso 1/specdata")
 directorio="~/Progra 3 programas/GitHub/Programacion_Actuarial_III_OT16/Caso 1/specdata"
 
 corr <- function(directorio, horizonte=0){
@@ -28,4 +29,5 @@ corr <- function(directorio, horizonte=0){
   
   print(resultado)
 }
-corr(directorio,70)
+summary(corr(,400))
+#summary(corr)

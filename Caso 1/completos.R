@@ -1,3 +1,4 @@
+setwd("~/Progra 3 programas/GitHub/Programacion_Actuarial_III_OT16/Caso 1/specdata")
 directorio="~/Progra 3 programas/GitHub/Programacion_Actuarial_III_OT16/Caso 1/specdata"
 
 completos <- function(directorio, id=1:332){
@@ -26,4 +27,4 @@ completos <- function(directorio, id=1:332){
   df <- data.frame(id, nobs=valores)
   df 
 }
-completos(directorio,10:70)
+completos(directorio,3)
